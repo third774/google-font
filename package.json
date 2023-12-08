@@ -1,0 +1,44 @@
+{
+  "name": "@third774/google-font",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "A web component for loading fonts from Google Fonts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/third774/google-fonts",
+  },
+  "keywords": [
+    "web-components",
+    "google-fonts",
+    "google-font",
+    "font",
+    "fonts",
+    "web",
+    "component",
+    "components",
+    "webcomponent",
+    "webcomponents",
+    "google",
+    "googlefonts",
+    "googlefont"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsup",
+    "clean": "npx trash-cli dist",
+    "dev": "vite",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Kevin Kipp",
+  "license": "MIT",
+  "dependencies": {
+    "tiny-invariant": "^1.3.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.6"
+  }
+}
