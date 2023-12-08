@@ -7,7 +7,7 @@
   "description": "A web component for loading fonts from Google Fonts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/third774/google-fonts",
+    "url": "https://github.com/third774/google-fonts"
   },
   "keywords": [
     "web-components",
